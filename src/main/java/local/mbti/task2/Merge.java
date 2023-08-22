@@ -27,7 +27,7 @@ public class Merge {
      *              e.g. [25,30] [2,19] [14, 23] [4,8]
      *              Whitespaces are ignored
      *              Any inputs not matching the intervals' pattern are silently dropped.
-     * @return Stream of merged Interval.
+     * @return List of merged Interval.
      * @throws NumberFormatException for numbers > Integer.MAX_VALUE
      * @throws NullPointerException  for null input
      */
